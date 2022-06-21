@@ -7,9 +7,13 @@
 
 ![index](/index.png "首页")
 
+---
+
 该平台提供发帖与浏览帖子功能
 
 ![issuance](/issuance.png "发帖")
+
+---
 
 因发帖需要，可注册帐号
 
