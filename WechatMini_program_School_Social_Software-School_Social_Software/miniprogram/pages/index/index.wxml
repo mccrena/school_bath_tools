@@ -1,0 +1,73 @@
+<!--pages/index/index.wxml-->
+
+
+
+  <!-- 项目分类-->
+  <view class="items">
+    <!--上-->
+    <view class="classification">
+      <!--活动-->
+      <view class="itemsActivity" id="0" bindtap="qushi">
+        <view>
+          <image class="image" src="../img/qushi.png"></image>
+        </view>
+        <view class="activityText">
+          <text>浴室环境</text>
+        </view>
+      </view>
+
+      <!--活动-->
+      <view class="itemsActivity" id="1" bindtap="questions">
+        <view>
+          <image class="image" src="../img/questions.png"></image>
+        </view>
+        <view class="activityText">
+          <text>疑问互答</text>
+        </view>
+      </view>
+    </view>
+
+    <!--中-->
+    <view class="classification">
+      <!--活动-->
+      <view class="itemsActivity" id="2" bindtap="sight">
+        <view>
+          <image class="image" src="../img/sign.png"></image>
+        </view>
+        <view class="activityText">
+          <text>浴室风光</text>
+        </view>
+      </view>
+      <!--活动-->
+      <view class="itemsActivity" id="3" bindtap="love">
+        <view>
+          <image class="image" src="../img/love.png"></image>
+        </view>
+        <view class="activityText">
+          <text>相约洗浴</text>
+        </view>
+      </view>
+    </view>
+
+    <!--下-->
+    <view class="classification">
+      <!--活动-->
+      <view class="itemsActivity" bindtap="activityPage">
+        <view>
+          <image class="image" src="../img/activity.png"></image>
+        </view>
+        <view class="activityText">
+          <text>今日天气</text>
+        </view>
+      </view>
+      <!--活动-->
+      <view class="itemsActivity" bindtap="chengji">
+        <view>
+          <image class="image" src="../img/chengji.png"></image>
+        </view>
+        <view class="activityText">
+          <text>每日评分</text>
+        </view>
+      </view>
+    </view>
+  </view>
